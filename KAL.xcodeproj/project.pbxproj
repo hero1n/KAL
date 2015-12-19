@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5EAAF09D1C253978009CACD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAF09C1C253978009CACD4 /* main.m */; };
 		5EAAF0A01C253978009CACD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAF09F1C253978009CACD4 /* AppDelegate.m */; };
-		5EAAF0A31C253978009CACD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAF0A21C253978009CACD4 /* ViewController.m */; };
 		5EAAF0A61C253978009CACD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAAF0A41C253978009CACD4 /* Main.storyboard */; };
 		5EAAF0A81C253978009CACD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAAF0A71C253978009CACD4 /* Assets.xcassets */; };
 		5EAAF0AB1C253978009CACD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAAF0A91C253978009CACD4 /* LaunchScreen.storyboard */; };
 		5EAAF0B61C253978009CACD4 /* KALTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAF0B51C253978009CACD4 /* KALTests.m */; };
 		5EAAF0C11C253978009CACD4 /* KALUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAF0C01C253978009CACD4 /* KALUITests.m */; };
+		5EAAF0D01C253ABB009CACD4 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAF0CF1C253ABB009CACD4 /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		5EAAF09C1C253978009CACD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EAAF09E1C253978009CACD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EAAF09F1C253978009CACD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EAAF0A11C253978009CACD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EAAF0A21C253978009CACD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5EAAF0A51C253978009CACD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EAAF0A71C253978009CACD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EAAF0AA1C253978009CACD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		5EAAF0BC1C253978009CACD4 /* KALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAAF0C01C253978009CACD4 /* KALUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KALUITests.m; sourceTree = "<group>"; };
 		5EAAF0C21C253978009CACD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EAAF0CE1C253ABB009CACD4 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		5EAAF0CF1C253ABB009CACD4 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				5EAAF09E1C253978009CACD4 /* AppDelegate.h */,
 				5EAAF09F1C253978009CACD4 /* AppDelegate.m */,
-				5EAAF0A11C253978009CACD4 /* ViewController.h */,
-				5EAAF0A21C253978009CACD4 /* ViewController.m */,
+				5EAAF0CE1C253ABB009CACD4 /* PageContentViewController.h */,
+				5EAAF0CF1C253ABB009CACD4 /* PageContentViewController.m */,
 				5EAAF0A41C253978009CACD4 /* Main.storyboard */,
 				5EAAF0A71C253978009CACD4 /* Assets.xcassets */,
 				5EAAF0A91C253978009CACD4 /* LaunchScreen.storyboard */,
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EAAF0A31C253978009CACD4 /* ViewController.m in Sources */,
+				5EAAF0D01C253ABB009CACD4 /* PageContentViewController.m in Sources */,
 				5EAAF0A01C253978009CACD4 /* AppDelegate.m in Sources */,
 				5EAAF09D1C253978009CACD4 /* main.m in Sources */,
 			);
