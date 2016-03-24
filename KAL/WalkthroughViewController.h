@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PageContentViewController.h"
 
-@interface WalkthroughViewController : UIViewController
+@interface WalkthroughViewController : UIViewController <UIPageViewControllerDataSource>
+
+@property (strong, nonatomic) NSArray *imageArray;
+@property (strong, nonatomic) UIPageViewController *pageViewController;
+
+
 
 @end

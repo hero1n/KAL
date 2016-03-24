@@ -1,0 +1,16 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.4)
+  - IQKeyboardManager (3.3.4)
+  - Toast (3.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.0.4)
+  - IQKeyboardManager
+  - Toast
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 860466cb4a66854e6acb590071ecee404b48f49d
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+
+COCOAPODS: 0.39.0

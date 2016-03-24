@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainCardViewController : UIViewController
+@interface MainCardViewController : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray *dataArray;
+
+@property (nonatomic) NSInteger *user_idx;
 
 @end

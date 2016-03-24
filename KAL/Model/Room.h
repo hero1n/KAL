@@ -10,4 +10,15 @@
 
 @interface Room : NSObject
 
+@property (strong, nonatomic) NSString *soundURL;
+@property (strong, nonatomic) NSString *photoURL;
+@property (strong, nonatomic) NSString *day;
+@property (strong, nonatomic) NSString *code;
+@property (strong, nonatomic) NSString *idx;
+@property (strong, nonatomic) NSString *time;
+@property (strong, nonatomic) NSString *title;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
++ (NSMutableArray *)roomsWithResponseObject:(NSDictionary *)responseObject;
 @end

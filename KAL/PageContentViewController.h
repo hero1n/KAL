@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface PageContentViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundImageView;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UIButton *button;
+
+@property NSUInteger pageIndex;
+@property NSString *imageFile;
+
 
 @end
