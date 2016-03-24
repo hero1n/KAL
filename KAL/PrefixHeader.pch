@@ -1,0 +1,9 @@
+#import "ZRConstants.h"
+#import "ZRNetwork.h"
+#import "NSDate+ZRExtension.h"
+#import "NSString+ZRExtension.h"
+#ifdef DEBUG
+#define NSLog( s, ... ) NSLog( @"%d Line, %s :: %@", __LINE__, __PRETTY_FUNCTION__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define NSLog( s, ... )
+#endif

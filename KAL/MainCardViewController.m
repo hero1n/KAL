@@ -1,18 +1,18 @@
 //
-//  PageContentViewController.m
+//  MainCardViewController.m
 //  KAL
 //
 //  Created by 노재원 on 2015. 12. 19..
 //  Copyright © 2015년 heroin. All rights reserved.
 //
 
-#import "PageContentViewController.h"
+#import "MainCardViewController.h"
 
-@interface PageContentViewController ()
+@interface MainCardViewController ()
 
 @end
 
-@implementation PageContentViewController
+@implementation MainCardViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
